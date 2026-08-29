@@ -4,5 +4,7 @@ public class Main {
         System.out.println("Hello, World!");
         Add obj = new Add();
         obj.add(10, 20);
+        Multiply multiply = new Multiply();
+        multiply.multiply(10, 20);
     }
 }
